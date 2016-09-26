@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Pictures in Passing</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/daneden/animate.css/master/animate.css">
+        <link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora|Raleway">
+        <link rel="stylesheet" type="text/css" href="/index.css">
+    </head>
+    <body>
+        <div class="column-middle">
+            <div>
+                <h1>Pictures in Passing</h1>
+            </div>
+
+            
+            <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
+                <div class="photo-dir-card">
+                    <h2>miscellaneous</h2>
+                    <span style="font-style: italic;">5 photos</span>
+                    <p>A collection of miscellaneous photos.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+        </div>
+
+        <div id="shroud">
+        </div>
+
+        <script>
+            shroud_lock = true;
+
+            window.setTimeout(function() {
+                document.querySelector('div#shroud').style.opacity = 0.0;
+                document.querySelector('div#shroud').style.pointerEvents = "none";
+                shroud_lock = false;
+            }, 200);
+
+            
+            document.querySelector('a#miscellaneous').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "miscellaneous.html"
+                    }, 100);
+                }
+            });
+            
+        </script>
+    </body>
+</html>
