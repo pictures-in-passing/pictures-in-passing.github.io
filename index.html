@@ -13,11 +13,22 @@
             </div>
 
             
+            <a id="hidden_treasure" data-gallery-url="./hidden_treasure.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/hidden_treasure~resized/c273ab42e928d9de9e7cfddee41a431c.JPG">
+                    <h2>Hidden Treasure</h2>
+                    <span style="font-style: italic;">13 photos</span>
+                    <p>In a place nowhere with it's lifeness elsewhere.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
             <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
                 <div class="photo-dir-card">
-                    <h2>miscellaneous</h2>
+                    <img class="bg-img" src="/miscellaneous~resized/9afc3c4de3402aa1d76aca7a00ed86a3.JPG">
+                    <h2>Miscellaneous</h2>
                     <span style="font-style: italic;">7 photos</span>
-                    <p>An assortment of random photos, too little in quantity to justify multiple collections.</p>
+                    <p>A random assortment.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
             </a>
@@ -36,6 +47,15 @@
                 shroud_lock = false;
             }, 200);
 
+            
+            document.querySelector('a#hidden_treasure').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "hidden_treasure.html"
+                    }, 100);
+                }
+            });
             
             document.querySelector('a#miscellaneous').addEventListener('click', function() {
                 if (!shroud_lock) {

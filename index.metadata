@@ -1,1 +1,7 @@
-{"title":"Pictures in Passing","photo_dirs":["miscellaneous"]}
+{
+  "title": "Pictures in Passing",
+  "photo_dirs": [
+    "hidden_treasure",
+    "miscellaneous"
+  ]
+}

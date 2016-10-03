@@ -44,10 +44,26 @@ div.photo-dir-card {
     padding: 2em;
 
     cursor: pointer;
+
+    overflow: hidden;
 }
 
 div.photo-dir-card:hover {
     background-color: #F4EAFF;
+}
+
+div.photo-dir-card img.bg-img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    transform: translateY(-50%);
+}
+
+div.photo-dir-card div.row {
+    display: inline;
 }
 
 span.link {
