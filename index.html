@@ -13,6 +13,16 @@
             </div>
 
             
+            <a id="sidewalk" data-gallery-url="./sidewalk.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/sidewalk~resized/83c963bf823cfbc43338b87d080eff29.JPG">
+                    <h2>Sidewalk</h2>
+                    <span style="font-style: italic;">5 photos</span>
+                    <p>Not so secret.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
             <a id="hidden_treasure" data-gallery-url="./hidden_treasure.html">
                 <div class="photo-dir-card">
                     <img class="bg-img" src="/hidden_treasure~resized/c273ab42e928d9de9e7cfddee41a431c.JPG">
@@ -47,6 +57,15 @@
                 shroud_lock = false;
             }, 200);
 
+            
+            document.querySelector('a#sidewalk').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "sidewalk.html"
+                    }, 100);
+                }
+            });
             
             document.querySelector('a#hidden_treasure').addEventListener('click', function() {
                 if (!shroud_lock) {

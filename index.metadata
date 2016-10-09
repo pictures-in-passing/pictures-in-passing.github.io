@@ -1,6 +1,7 @@
 {
   "title": "Pictures in Passing",
   "photo_dirs": [
+    "sidewalk",
     "hidden_treasure",
     "miscellaneous"
   ]
