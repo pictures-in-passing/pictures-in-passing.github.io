@@ -33,11 +33,21 @@
                 </div>
             </a>
             
+            <a id="poolside" data-gallery-url="./poolside.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/poolside~resized/ee6bc5c22b81a566810187e8730412cb.JPG">
+                    <h2>Poolside</h2>
+                    <span style="font-style: italic;">4 photos</span>
+                    <p>For those suburban city nights.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
             <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
                 <div class="photo-dir-card">
                     <img class="bg-img" src="/miscellaneous~resized/8c955b78e2c6e9c724da3d1df54325a5.JPG">
                     <h2>Miscellaneous</h2>
-                    <span style="font-style: italic;">11 photos</span>
+                    <span style="font-style: italic;">9 photos</span>
                     <p>A random assortment.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
@@ -72,6 +82,15 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "hidden_treasure.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#poolside').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "poolside.html"
                     }, 100);
                 }
             });
