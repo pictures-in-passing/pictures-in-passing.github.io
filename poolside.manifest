@@ -1,5 +1,23 @@
 [
   {
+    "basename": "DSC04463.JPG",
+    "filename": "/poolside/DSC04463.JPG",
+    "hash": "0f6d47c661c28fe39c988051f97d2ae8",
+    "resized": "/poolside~resized/0f6d47c661c28fe39c988051f97d2ae8.JPG"
+  },
+  {
+    "basename": "DSC04423.JPG",
+    "filename": "/poolside/DSC04423.JPG",
+    "hash": "774769bcb19fa732d08fea5fdb5236cd",
+    "resized": "/poolside~resized/774769bcb19fa732d08fea5fdb5236cd.JPG"
+  },
+  {
+    "basename": "DSC04416.JPG",
+    "filename": "/poolside/DSC04416.JPG",
+    "hash": "6dd6f712942f9c79773cf2377167536b",
+    "resized": "/poolside~resized/6dd6f712942f9c79773cf2377167536b.JPG"
+  },
+  {
     "basename": "DSC04413.JPG",
     "filename": "/poolside/DSC04413.JPG",
     "hash": "ee6bc5c22b81a566810187e8730412cb",
