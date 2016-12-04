@@ -1,5 +1,17 @@
 [
   {
+    "basename": "DSC05007.jpg",
+    "filename": "/miscellaneous/DSC05007.jpg",
+    "hash": "7ed18a002e36c71ed93acec3044106b9",
+    "resized": "/miscellaneous~resized/7ed18a002e36c71ed93acec3044106b9.jpg"
+  },
+  {
+    "basename": "DSC04999.jpg",
+    "filename": "/miscellaneous/DSC04999.jpg",
+    "hash": "a99973b900f241a366a0b707010b3521",
+    "resized": "/miscellaneous~resized/a99973b900f241a366a0b707010b3521.jpg"
+  },
+  {
     "basename": "DSC04874.jpg",
     "filename": "/miscellaneous/DSC04874.jpg",
     "hash": "3fce30642c458073c0b58743768e20e7",

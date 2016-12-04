@@ -1,10 +1,11 @@
 {
   "title": "Pictures in Passing",
   "photo_dirs": [
+    "miscellaneous",
+    "richmond_point",
     "hidden_treasure",
     "roundhouse",
     "sidewalk",
-    "poolside",
-    "miscellaneous"
+    "poolside"
   ]
 }

@@ -13,6 +13,26 @@
             </div>
 
             
+            <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/miscellaneous~resized/7ed18a002e36c71ed93acec3044106b9.jpg">
+                    <h2>Miscellaneous</h2>
+                    <span style="font-style: italic;">27 photos</span>
+                    <p>A random assortment.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+            <a id="richmond_point" data-gallery-url="./richmond_point.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/richmond_point~resized/d092a56316b95cf2e0f0b1484374c569.jpg">
+                    <h2>Richmond Point</h2>
+                    <span style="font-style: italic;">12 photos</span>
+                    <p>When memories sail away.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
             <a id="hidden_treasure" data-gallery-url="./hidden_treasure.html">
                 <div class="photo-dir-card">
                     <img class="bg-img" src="/hidden_treasure~resized/c273ab42e928d9de9e7cfddee41a431c.JPG">
@@ -53,16 +73,6 @@
                 </div>
             </a>
             
-            <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
-                <div class="photo-dir-card">
-                    <img class="bg-img" src="/miscellaneous~resized/3fce30642c458073c0b58743768e20e7.jpg">
-                    <h2>Miscellaneous</h2>
-                    <span style="font-style: italic;">25 photos</span>
-                    <p>A random assortment.</p>
-                    <span class='link'><i class="fa fa-external-link"></i></span>
-                </div>
-            </a>
-            
         </div>
 
         <div id="shroud">
@@ -77,6 +87,24 @@
                 shroud_lock = false;
             }, 200);
 
+            
+            document.querySelector('a#miscellaneous').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "miscellaneous.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#richmond_point').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "richmond_point.html"
+                    }, 100);
+                }
+            });
             
             document.querySelector('a#hidden_treasure').addEventListener('click', function() {
                 if (!shroud_lock) {
@@ -110,15 +138,6 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "poolside.html"
-                    }, 100);
-                }
-            });
-            
-            document.querySelector('a#miscellaneous').addEventListener('click', function() {
-                if (!shroud_lock) {
-                    document.querySelector('div#shroud').style.opacity = 1.0;
-                    window.setTimeout(function(){
-                        window.location.href = "miscellaneous.html"
                     }, 100);
                 }
             });
