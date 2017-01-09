@@ -15,10 +15,20 @@
             
             <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/miscellaneous~resized/7ed18a002e36c71ed93acec3044106b9.jpg">
+                    <img class="bg-img" src="/miscellaneous~resized/d4da587a4ab96bf1c3dc3ffdc898bbee.jpg">
                     <h2>Miscellaneous</h2>
-                    <span style="font-style: italic;">27 photos</span>
+                    <span style="font-style: italic;">34 photos</span>
                     <p>A random assortment.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+            <a id="portland_seattle_pnw" data-gallery-url="./portland_seattle_pnw.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/portland_seattle_pnw~resized/c1fdb6673024bea21d224eb370687872.jpg">
+                    <h2>Roadtrip Tourist</h2>
+                    <span style="font-style: italic;">25 photos</span>
+                    <p>Pictures from a PNW roadtrip, visiting Portland, Seattle, and Bend.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
             </a>
@@ -93,6 +103,15 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "miscellaneous.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#portland_seattle_pnw').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "portland_seattle_pnw.html"
                     }, 100);
                 }
             });
