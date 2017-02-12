@@ -1,5 +1,23 @@
 [
   {
+    "basename": "DSC05864.jpg",
+    "filename": "/richmond_point/DSC05864.jpg",
+    "hash": "dca8fad8db56c5020e702b0a5944743a",
+    "resized": "/richmond_point~resized/dca8fad8db56c5020e702b0a5944743a.jpg"
+  },
+  {
+    "basename": "DSC05862.jpg",
+    "filename": "/richmond_point/DSC05862.jpg",
+    "hash": "3e333c7d86d2bfd38083d2745bf620c3",
+    "resized": "/richmond_point~resized/3e333c7d86d2bfd38083d2745bf620c3.jpg"
+  },
+  {
+    "basename": "DSC05860.jpg",
+    "filename": "/richmond_point/DSC05860.jpg",
+    "hash": "5dedfccc293bdac46fddb2ee7adc6221",
+    "resized": "/richmond_point~resized/5dedfccc293bdac46fddb2ee7adc6221.jpg"
+  },
+  {
     "basename": "DSC04992.jpg",
     "filename": "/richmond_point/DSC04992.jpg",
     "hash": "d092a56316b95cf2e0f0b1484374c569",

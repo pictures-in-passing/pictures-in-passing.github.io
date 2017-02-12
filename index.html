@@ -13,11 +13,21 @@
             </div>
 
             
+            <a id="san_francisco" data-gallery-url="./san_francisco.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/san_francisco~resized/9fc707b2b0c849227336df6bc56c32d6.jpg">
+                    <h2>415-xxx-xxxx</h2>
+                    <span style="font-style: italic;">14 photos</span>
+                    <p>Bits and pieces of San Francisco.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
             <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/miscellaneous~resized/d4da587a4ab96bf1c3dc3ffdc898bbee.jpg">
+                    <img class="bg-img" src="/miscellaneous~resized/740115a150bcc4447863011da3d1c543.jpg">
                     <h2>Miscellaneous</h2>
-                    <span style="font-style: italic;">34 photos</span>
+                    <span style="font-style: italic;">28 photos</span>
                     <p>A random assortment.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
@@ -35,10 +45,20 @@
             
             <a id="richmond_point" data-gallery-url="./richmond_point.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/richmond_point~resized/d092a56316b95cf2e0f0b1484374c569.jpg">
+                    <img class="bg-img" src="/richmond_point~resized/dca8fad8db56c5020e702b0a5944743a.jpg">
                     <h2>Richmond Point</h2>
-                    <span style="font-style: italic;">12 photos</span>
+                    <span style="font-style: italic;">15 photos</span>
                     <p>When memories sail away.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+            <a id="not_fake_news" data-gallery-url="./not_fake_news.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/not_fake_news~resized/f80eb596840caba382bcbcde678b648a.jpg">
+                    <h2>Resist '17</h2>
+                    <span style="font-style: italic;">2 photos</span>
+                    <p>A few, selected, moments surrounding the administration</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
             </a>
@@ -98,6 +118,15 @@
             }, 200);
 
             
+            document.querySelector('a#san_francisco').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "san_francisco.html"
+                    }, 100);
+                }
+            });
+            
             document.querySelector('a#miscellaneous').addEventListener('click', function() {
                 if (!shroud_lock) {
                     document.querySelector('div#shroud').style.opacity = 1.0;
@@ -121,6 +150,15 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "richmond_point.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#not_fake_news').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "not_fake_news.html"
                     }, 100);
                 }
             });

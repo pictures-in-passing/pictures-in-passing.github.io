@@ -1,9 +1,11 @@
 {
   "title": "Pictures in Passing",
   "photo_dirs": [
+    "san_francisco",
     "miscellaneous",
     "portland_seattle_pnw",
     "richmond_point",
+    "not_fake_news",
     "hidden_treasure",
     "roundhouse",
     "sidewalk",

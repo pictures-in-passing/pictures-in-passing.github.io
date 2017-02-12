@@ -1,0 +1,244 @@
+<html>
+    <head>
+        <title>Resist '17</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/daneden/animate.css/master/animate.css">
+        <link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora|Raleway">
+        <link rel="stylesheet" type="text/css" href="/gallery.css">
+    </head>
+    <body>
+        <div id="main-content">
+            <div id="_intro" class="frame" shunt-frame>
+                <div class="column-middle">
+                    <div class="column-l33">
+                        
+                            <img id="link_f80eb596840caba382bcbcde678b648a" src="/not_fake_news~resized/f80eb596840caba382bcbcde678b648a.jpg" class="sidenail"><br/>
+                        
+                            <img id="link_dbcac4f62bc0c29da551f96c55380d7f" src="/not_fake_news~resized/dbcac4f62bc0c29da551f96c55380d7f.jpg" class="sidenail"><br/>
+                        
+                    </div>
+                    <div id="text" class="column-r66">
+                        <h1>Resist '17</h1>
+                        <p id="description">A few, selected, moments surrounding the administration</p>
+                    </div>
+                </div>
+
+                <a id="index"><span class="control"><i class="fa fa-2x fa-times-circle-o"></i></span></a>
+            </div>
+            
+            <div id="DSC05917.jpg" class="photo frame" shunt-frame>
+                <span id='down' class='control'><i class="fa fa-2x fa-angle-down"></i></span>
+                <span id='up' class='control'><i class="fa fa-2x fa-angle-up"></i></span>
+
+                <span id='back' class='control'><i class="fa fa-times-circle-o"></i></span>
+                <span id='asset' class='control'><a target="_blank" href="/not_fake_news/DSC05917.jpg"><i class="fa fa-share-square-o"></i></a></span>
+
+                <img src="/not_fake_news~resized/f80eb596840caba382bcbcde678b648a.jpg" class="resized lookiehere" data-full-image-url="/not_fake_news/DSC05917.jpg">
+            </div>
+            
+            <div id="DSC05834.jpg" class="photo frame" shunt-frame>
+                <span id='down' class='control'><i class="fa fa-2x fa-angle-down"></i></span>
+                <span id='up' class='control'><i class="fa fa-2x fa-angle-up"></i></span>
+
+                <span id='back' class='control'><i class="fa fa-times-circle-o"></i></span>
+                <span id='asset' class='control'><a target="_blank" href="/not_fake_news/DSC05834.jpg"><i class="fa fa-share-square-o"></i></a></span>
+
+                <img src="/not_fake_news~resized/dbcac4f62bc0c29da551f96c55380d7f.jpg" class="resized lookiehere" data-full-image-url="/not_fake_news/DSC05834.jpg">
+            </div>
+            
+        </div>
+
+        <div id="shroud">
+        </div>
+
+        <script src="https://cdn.rawgit.com/KelvinLu/lookiehere.js/master/lookiehere.js"></script>
+        <script src="https://cdn.rawgit.com/KelvinLu/shuntdiv.js/master/shuntdiv.js"></script>
+        <script type="text/javascript">
+            lookiehere.options({ activateByTab: false, attribute: 'data-full-image-url' });
+            lookiehere.init();
+
+            galleryShunts = new ShuntDiv(document.getElementById('main-content'), [
+                
+                new ShuntDiv.Transition('_intro', 'DSC05917.jpg', 'dualAnimateCss', 'click', {
+                    id: 'link_f80eb596840caba382bcbcde678b648a',
+                    exit_animation_name:  'fadeOut',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInRight',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', '_intro', 'dualAnimateCss', 'click', {
+                    id: 'back',
+                    exit_animation_name:  'fadeOutRight',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeIn',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('_intro', 'DSC05834.jpg', 'dualAnimateCss', 'click', {
+                    id: 'link_dbcac4f62bc0c29da551f96c55380d7f',
+                    exit_animation_name:  'fadeOut',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInRight',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', '_intro', 'dualAnimateCss', 'click', {
+                    id: 'back',
+                    exit_animation_name:  'fadeOutRight',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeIn',
+                    enter_animation_function: 'ease',
+                }),
+                
+                
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 32,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 40,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 38,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'wheel', {
+                    deltaY: 20,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'wheel', {
+                    deltaY: -20,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'click', {
+                    id: 'down',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'click', {
+                    id: 'up',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'up',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'down',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 32,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 40,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 38,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'wheel', {
+                    deltaY: 20,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'wheel', {
+                    deltaY: -20,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'click', {
+                    id: 'down',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'click', {
+                    id: 'up',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05834.jpg', 'DSC05917.jpg', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'up',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC05917.jpg', 'DSC05834.jpg', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'down',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                
+            ], {
+                default: '_intro',
+                saveWithHash: true,
+            });
+
+            shroud_lock = true;
+
+            window.setTimeout(function() {
+                document.querySelector('div#shroud').style.opacity = 0.0;
+                document.querySelector('div#shroud').style.pointerEvents = "none";
+                shroud_lock = false;
+            }, 200);
+
+            document.querySelector('a#index').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "./index.html"
+                    }, 100);
+                }
+            });
+        </script>
+    </body>
+</html>
