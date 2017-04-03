@@ -1,5 +1,23 @@
 [
   {
+    "basename": "DSC06003.jpg",
+    "filename": "/san_francisco/DSC06003.jpg",
+    "hash": "156b33cf066118f74d7e6a635b433bf4",
+    "resized": "/san_francisco~resized/156b33cf066118f74d7e6a635b433bf4.jpg"
+  },
+  {
+    "basename": "DSC06368.jpg",
+    "filename": "/san_francisco/DSC06368.jpg",
+    "hash": "8fad6c2fc648efbd2d6415887a8651ef",
+    "resized": "/san_francisco~resized/8fad6c2fc648efbd2d6415887a8651ef.jpg"
+  },
+  {
+    "basename": "DSC06362.jpg",
+    "filename": "/san_francisco/DSC06362.jpg",
+    "hash": "16584884b4d6fbb1f692f13aa6707a1f",
+    "resized": "/san_francisco~resized/16584884b4d6fbb1f692f13aa6707a1f.jpg"
+  },
+  {
     "basename": "DSC05881.jpg",
     "filename": "/san_francisco/DSC05881.jpg",
     "hash": "9fc707b2b0c849227336df6bc56c32d6",

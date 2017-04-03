@@ -15,9 +15,9 @@
             
             <a id="san_francisco" data-gallery-url="./san_francisco.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/san_francisco~resized/9fc707b2b0c849227336df6bc56c32d6.jpg">
+                    <img class="bg-img" src="/san_francisco~resized/156b33cf066118f74d7e6a635b433bf4.jpg">
                     <h2>415-xxx-xxxx</h2>
-                    <span style="font-style: italic;">14 photos</span>
+                    <span style="font-style: italic;">17 photos</span>
                     <p>Bits and pieces of San Francisco.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
@@ -25,10 +25,20 @@
             
             <a id="miscellaneous" data-gallery-url="./miscellaneous.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/miscellaneous~resized/740115a150bcc4447863011da3d1c543.jpg">
+                    <img class="bg-img" src="/miscellaneous~resized/8abd897e4699829cbdbfe1b5f04013e6.jpg">
                     <h2>Miscellaneous</h2>
-                    <span style="font-style: italic;">28 photos</span>
+                    <span style="font-style: italic;">29 photos</span>
                     <p>A random assortment.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+            <a id="tahoe" data-gallery-url="./tahoe.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/tahoe~resized/55ec31fc3aa55b61e84fe8f1042d9ae0.jpg">
+                    <h2>Lake Tahoe</h2>
+                    <span style="font-style: italic;">11 photos</span>
+                    <p>Scenes in winter.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
             </a>
@@ -132,6 +142,15 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "miscellaneous.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#tahoe').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "tahoe.html"
                     }, 100);
                 }
             });

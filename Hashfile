@@ -1,10 +1,11 @@
 ---
-san_francisco: '311130'
 richmond_point: '282441'
-miscellaneous: 71c1f5
+tahoe: 49efca
+san_francisco: 31d9e2
+miscellaneous: 080fb7
 sidewalk: 0ec62a
-not_fake_news: 20d503
-poolside: 479b54
-roundhouse: 4e1ecb
 portland_seattle_pnw: 63c740
+poolside: 479b54
+not_fake_news: 20d503
 hidden_treasure: a9a23d
+roundhouse: 4e1ecb
