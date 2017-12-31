@@ -15,9 +15,9 @@
             
             <a id="san_francisco" data-gallery-url="./san_francisco.html">
                 <div class="photo-dir-card">
-                    <img class="bg-img" src="/san_francisco~resized/156b33cf066118f74d7e6a635b433bf4.jpg">
+                    <img class="bg-img" src="/san_francisco~resized/ac9db6f4a3e932b0ba4e22a148029e49.JPG">
                     <h2>415-xxx-xxxx</h2>
-                    <span style="font-style: italic;">17 photos</span>
+                    <span style="font-style: italic;">20 photos</span>
                     <p>Bits and pieces of San Francisco.</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
@@ -49,6 +49,16 @@
                     <h2>Roadtrip Tourist</h2>
                     <span style="font-style: italic;">25 photos</span>
                     <p>Pictures from a PNW roadtrip, visiting Portland, Seattle, and Bend.</p>
+                    <span class='link'><i class="fa fa-external-link"></i></span>
+                </div>
+            </a>
+            
+            <a id="point_reyes" data-gallery-url="./point_reyes.html">
+                <div class="photo-dir-card">
+                    <img class="bg-img" src="/point_reyes~resized/d7831c1c57091b4631836b51f5e4593c.JPG">
+                    <h2>Point Reyes</h2>
+                    <span style="font-style: italic;">7 photos</span>
+                    <p>Point Reyes National Seashore</p>
                     <span class='link'><i class="fa fa-external-link"></i></span>
                 </div>
             </a>
@@ -160,6 +170,15 @@
                     document.querySelector('div#shroud').style.opacity = 1.0;
                     window.setTimeout(function(){
                         window.location.href = "portland_seattle_pnw.html"
+                    }, 100);
+                }
+            });
+            
+            document.querySelector('a#point_reyes').addEventListener('click', function() {
+                if (!shroud_lock) {
+                    document.querySelector('div#shroud').style.opacity = 1.0;
+                    window.setTimeout(function(){
+                        window.location.href = "point_reyes.html"
                     }, 100);
                 }
             });

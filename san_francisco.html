@@ -12,6 +12,12 @@
                 <div class="column-middle">
                     <div class="column-l33">
                         
+                            <img id="link_ac9db6f4a3e932b0ba4e22a148029e49" src="/san_francisco~resized/ac9db6f4a3e932b0ba4e22a148029e49.JPG" class="sidenail"><br/>
+                        
+                            <img id="link_fc97898e01676a5a5faaac16f5a00d28" src="/san_francisco~resized/fc97898e01676a5a5faaac16f5a00d28.JPG" class="sidenail"><br/>
+                        
+                            <img id="link_b28fa8d3c25e71d4f2006501872d336f" src="/san_francisco~resized/b28fa8d3c25e71d4f2006501872d336f.JPG" class="sidenail"><br/>
+                        
                             <img id="link_156b33cf066118f74d7e6a635b433bf4" src="/san_francisco~resized/156b33cf066118f74d7e6a635b433bf4.jpg" class="sidenail"><br/>
                         
                             <img id="link_8fad6c2fc648efbd2d6415887a8651ef" src="/san_francisco~resized/8fad6c2fc648efbd2d6415887a8651ef.jpg" class="sidenail"><br/>
@@ -54,6 +60,36 @@
                 </div>
 
                 <a id="index"><span class="control"><i class="fa fa-2x fa-times-circle-o"></i></span></a>
+            </div>
+            
+            <div id="DSC07270.JPG" class="photo frame" shunt-frame>
+                <span id='down' class='control'><i class="fa fa-2x fa-angle-down"></i></span>
+                <span id='up' class='control'><i class="fa fa-2x fa-angle-up"></i></span>
+
+                <span id='back' class='control'><i class="fa fa-times-circle-o"></i></span>
+                <span id='asset' class='control'><a target="_blank" href="/san_francisco/DSC07270.JPG"><i class="fa fa-share-square-o"></i></a></span>
+
+                <img src="/san_francisco~resized/ac9db6f4a3e932b0ba4e22a148029e49.JPG" class="resized lookiehere" data-full-image-url="/san_francisco/DSC07270.JPG">
+            </div>
+            
+            <div id="DSC06976.JPG" class="photo frame" shunt-frame>
+                <span id='down' class='control'><i class="fa fa-2x fa-angle-down"></i></span>
+                <span id='up' class='control'><i class="fa fa-2x fa-angle-up"></i></span>
+
+                <span id='back' class='control'><i class="fa fa-times-circle-o"></i></span>
+                <span id='asset' class='control'><a target="_blank" href="/san_francisco/DSC06976.JPG"><i class="fa fa-share-square-o"></i></a></span>
+
+                <img src="/san_francisco~resized/fc97898e01676a5a5faaac16f5a00d28.JPG" class="resized lookiehere" data-full-image-url="/san_francisco/DSC06976.JPG">
+            </div>
+            
+            <div id="DSC06981.JPG" class="photo frame" shunt-frame>
+                <span id='down' class='control'><i class="fa fa-2x fa-angle-down"></i></span>
+                <span id='up' class='control'><i class="fa fa-2x fa-angle-up"></i></span>
+
+                <span id='back' class='control'><i class="fa fa-times-circle-o"></i></span>
+                <span id='asset' class='control'><a target="_blank" href="/san_francisco/DSC06981.JPG"><i class="fa fa-share-square-o"></i></a></span>
+
+                <img src="/san_francisco~resized/b28fa8d3c25e71d4f2006501872d336f.JPG" class="resized lookiehere" data-full-image-url="/san_francisco/DSC06981.JPG">
             </div>
             
             <div id="DSC06003.jpg" class="photo frame" shunt-frame>
@@ -238,6 +274,51 @@
             lookiehere.init();
 
             galleryShunts = new ShuntDiv(document.getElementById('main-content'), [
+                
+                new ShuntDiv.Transition('_intro', 'DSC07270.JPG', 'dualAnimateCss', 'click', {
+                    id: 'link_ac9db6f4a3e932b0ba4e22a148029e49',
+                    exit_animation_name:  'fadeOut',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInRight',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC07270.JPG', '_intro', 'dualAnimateCss', 'click', {
+                    id: 'back',
+                    exit_animation_name:  'fadeOutRight',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeIn',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('_intro', 'DSC06976.JPG', 'dualAnimateCss', 'click', {
+                    id: 'link_fc97898e01676a5a5faaac16f5a00d28',
+                    exit_animation_name:  'fadeOut',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInRight',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', '_intro', 'dualAnimateCss', 'click', {
+                    id: 'back',
+                    exit_animation_name:  'fadeOutRight',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeIn',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('_intro', 'DSC06981.JPG', 'dualAnimateCss', 'click', {
+                    id: 'link_b28fa8d3c25e71d4f2006501872d336f',
+                    exit_animation_name:  'fadeOut',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInRight',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', '_intro', 'dualAnimateCss', 'click', {
+                    id: 'back',
+                    exit_animation_name:  'fadeOutRight',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeIn',
+                    enter_animation_function: 'ease',
+                }),
                 
                 new ShuntDiv.Transition('_intro', 'DSC06003.jpg', 'dualAnimateCss', 'click', {
                     id: 'link_156b33cf066118f74d7e6a635b433bf4',
@@ -494,6 +575,198 @@
                     enter_animation_function: 'ease',
                 }),
                 
+                
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 32,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 40,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 38,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'wheel', {
+                    deltaY: 20,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'wheel', {
+                    deltaY: -20,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'click', {
+                    id: 'down',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'click', {
+                    id: 'up',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'up',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'down',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC06981.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 32,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC06981.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 40,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 38,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC06981.JPG', 'dualAnimateCss', 'wheel', {
+                    deltaY: 20,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'wheel', {
+                    deltaY: -20,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC06981.JPG', 'dualAnimateCss', 'click', {
+                    id: 'down',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'click', {
+                    id: 'up',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06976.JPG', 'DSC06981.JPG', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'up',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06976.JPG', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'down',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 32,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'keypress', {
+                    key: 40,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06003.jpg', 'DSC06981.JPG', 'dualAnimateCss', 'keypress', {
+                    key: 38,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'wheel', {
+                    deltaY: 20,
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06003.jpg', 'DSC06981.JPG', 'dualAnimateCss', 'wheel', {
+                    deltaY: -20,
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'click', {
+                    id: 'down',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06003.jpg', 'DSC06981.JPG', 'dualAnimateCss', 'click', {
+                    id: 'up',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06981.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'up',
+                    exit_animation_name:  'fadeOutUp',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInUp',
+                    enter_animation_function: 'ease',
+                }),
+                new ShuntDiv.Transition('DSC06003.jpg', 'DSC06981.JPG', 'dualAnimateCss', 'touchSwipe', {
+                    swipe: 'down',
+                    exit_animation_name:  'fadeOutDown',
+                    exit_animation_function: 'ease',
+                    enter_animation_name: 'fadeInDown',
+                    enter_animation_function: 'ease',
+                }),
                 
                 new ShuntDiv.Transition('DSC06003.jpg', 'DSC06368.jpg', 'dualAnimateCss', 'keypress', {
                     key: 32,
@@ -1519,63 +1792,63 @@
                     enter_animation_function: 'ease',
                 }),
                 
-                new ShuntDiv.Transition('DSC04618.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'keypress', {
+                new ShuntDiv.Transition('DSC04618.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'keypress', {
                     key: 32,
                     exit_animation_name:  'fadeOutUp',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInUp',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC04618.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'keypress', {
+                new ShuntDiv.Transition('DSC04618.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'keypress', {
                     key: 40,
                     exit_animation_name:  'fadeOutUp',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInUp',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC06003.jpg', 'DSC04618.JPG', 'dualAnimateCss', 'keypress', {
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC04618.JPG', 'dualAnimateCss', 'keypress', {
                     key: 38,
                     exit_animation_name:  'fadeOutDown',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInDown',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC04618.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'wheel', {
+                new ShuntDiv.Transition('DSC04618.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'wheel', {
                     deltaY: 20,
                     exit_animation_name:  'fadeOutUp',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInUp',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC06003.jpg', 'DSC04618.JPG', 'dualAnimateCss', 'wheel', {
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC04618.JPG', 'dualAnimateCss', 'wheel', {
                     deltaY: -20,
                     exit_animation_name:  'fadeOutDown',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInDown',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC04618.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'click', {
+                new ShuntDiv.Transition('DSC04618.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'click', {
                     id: 'down',
                     exit_animation_name:  'fadeOutUp',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInUp',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC06003.jpg', 'DSC04618.JPG', 'dualAnimateCss', 'click', {
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC04618.JPG', 'dualAnimateCss', 'click', {
                     id: 'up',
                     exit_animation_name:  'fadeOutDown',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInDown',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC04618.JPG', 'DSC06003.jpg', 'dualAnimateCss', 'touchSwipe', {
+                new ShuntDiv.Transition('DSC04618.JPG', 'DSC07270.JPG', 'dualAnimateCss', 'touchSwipe', {
                     swipe: 'up',
                     exit_animation_name:  'fadeOutUp',
                     exit_animation_function: 'ease',
                     enter_animation_name: 'fadeInUp',
                     enter_animation_function: 'ease',
                 }),
-                new ShuntDiv.Transition('DSC06003.jpg', 'DSC04618.JPG', 'dualAnimateCss', 'touchSwipe', {
+                new ShuntDiv.Transition('DSC07270.JPG', 'DSC04618.JPG', 'dualAnimateCss', 'touchSwipe', {
                     swipe: 'down',
                     exit_animation_name:  'fadeOutDown',
                     exit_animation_function: 'ease',
